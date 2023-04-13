@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+body {
+    background: linear-gradient(to right, #910B25, #0B2791); 
+}
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-size: 65px;
+	color: white;
+}
+h2{
+	text-align: center;
+	color: white;
+}
+h3{
+	text-align: center;
+}
+.menu {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	width: 800px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 10px;
+    resize: none;
+    font-size: 2rem
+}
+.entrada{
+	text-align: center !important;
+	margin: auto;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.boton button {
+    margin: 0 5px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.encriptar {
+	background-color: #2AC25C;
+	color: #fff;
+	border: none;
+	padding: 10px !important;
+	cursor: pointer;
+}
+.desencriptar {
+	background-color: #2A87C2;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
